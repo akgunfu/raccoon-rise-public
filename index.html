@@ -1,52 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Privacy Policy</title>
+  <meta charset="UTF-8">
+  <title>My Apps & Privacy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --primary-color: #4A90E2;
+      --background: #f9f9f9;
+      --text: #333;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: system-ui, sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1 {
+      color: var(--primary-color);
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 2rem;
+      max-width: 600px;
+    }
+
+    a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      text-decoration: none;
+      color: white;
+      background-color: var(--primary-color);
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #357ab7;
+    }
+
+    @media (max-width: 480px) {
+      a {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin: 0.5rem auto;
+      }
+    }
+  </style>
 </head>
 <body>
-  <div style="text-align: right; margin: 20px; font-size: 16px; font-family: sans-serif;">
-    <a href="index.html" style="text-decoration: none; margin-left: 10px;">🇬🇧 English</a>
-    |
-    <a href="tr.html" style="text-decoration: none; margin-left: 10px;">🇹🇷 Türkçe</a>
-  </div>
+  <h1>Welcome!</h1>
+  <p>This page contains information about my mobile games and related privacy policies.</p>
 
-  <h1>Privacy Policy</h1>
-  <p>Effective Date: June 28, 2025</p>
-
-  <p>This Privacy Policy explains how your data is handled when using our mobile game.</p>
-
-  <h2>1. Information We Collect</h2>
-  <ul>
-    <li><strong>Anonymous Gameplay Data:</strong> Non-personal data like scores, level progress, or gameplay duration.</li>
-    <li><strong>AdMob:</strong> Displays ads via Google. May collect device info and usage data (<a href="https://policies.google.com/privacy">Google Privacy Policy</a>).</li>
-    <li><strong>Firebase:</strong> For analytics and crash reports. Collects anonymized data.</li>
-  </ul>
-
-  <h2>2. No Personal Information</h2>
-  <p>We do not collect names, emails, or any identifiable personal data. All gameplay is anonymous.</p>
-
-  <h2>3. Data Usage</h2>
-  <ul>
-    <li>Improve game experience</li>
-    <li>Fix bugs and crashes</li>
-    <li>Deliver ads (personalized/non-personalized)</li>
-  </ul>
-
-  <h2>4. Children</h2>
-  <p>Not intended for users under 13. No personal data knowingly collected from children.</p>
-
-  <h2>5. Third-Party Services</h2>
-  <ul>
-    <li>Google AdMob</li>
-    <li>Google Firebase</li>
-  </ul>
-  <p>Review their privacy terms: <a href="https://policies.google.com/privacy">Google Privacy Policy</a></p>
-
-  <h2>6. Retention</h2>
-  <p>Anonymized data is retained only as long as necessary.</p>
-
-  <h2>7. Contact</h2>
-  <p>Questions? Email us at: <strong>akgunfu@gmail.com</strong></p>
+  <a href="privacy/en.html">Privacy Policy (English)</a>
+  <a href="privacy/tr.html">Gizlilik Politikası (Türkçe)</a>
+  <a href="contact.html">Contact & Support</a>
 </body>
 </html>
