@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>My Apps & Privacy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
@@ -10,7 +10,6 @@
       --background: #f9f9f9;
       --text: #333;
     }
-
     body {
       margin: 0;
       padding: 2rem;
@@ -22,48 +21,45 @@
       align-items: center;
       text-align: center;
     }
-
     h1 {
       color: var(--primary-color);
       margin-bottom: 0.5rem;
     }
-
-    p {
-      margin-bottom: 2rem;
-      max-width: 600px;
+    .link-section {
+      margin: 1.5rem 0;
     }
-
+    h2 {
+      font-size: 1.2rem;
+      color: var(--primary-color);
+      margin-bottom: 0.5rem;
+    }
     a {
-      display: inline-block;
+      color: var(--primary-color);
       margin: 0.5rem;
-      padding: 0.75rem 1.25rem;
       text-decoration: none;
-      color: white;
-      background-color: var(--primary-color);
-      border-radius: 8px;
-      transition: background 0.3s ease;
-    }
-
-    a:hover {
-      background-color: #357ab7;
-    }
-
-    @media (max-width: 480px) {
-      a {
-        display: block;
-        width: 100%;
-        max-width: 300px;
-        margin: 0.5rem auto;
-      }
+      display: inline-block;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome!</h1>
-  <p>This page contains information about my mobile games and related privacy policies.</p>
+  <h1>My Apps & Privacy</h1>
+  <p>Welcome to my app privacy center. You can find information below:</p>
 
-  <a href="privacy/en.html">Privacy Policy (English)</a>
-  <a href="privacy/tr.html">Gizlilik Politikası (Türkçe)</a>
-  <a href="contact.html">Contact & Support</a>
+  <div class="link-section">
+    <h2>English</h2>
+    <a href="./privacy/en.html">Privacy Policy</a>
+    <a href="./terms/en.html">Terms of Service</a>
+  </div>
+
+  <div class="link-section">
+    <h2>Türkçe</h2>
+    <a href="./privacy/tr.html">Gizlilik Politikası</a>
+    <a href="./terms/tr.html">Kullanım Şartları</a>
+  </div>
+
+  <div class="link-section">
+    <h2>General</h2>
+    <a href="./contact.html">Contact</a>
+  </div>
 </body>
 </html>
