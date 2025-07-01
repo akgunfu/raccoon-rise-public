@@ -1,0 +1,29 @@
+body {
+  font-family: system-ui, sans-serif;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fdfdfd;
+  color: #333;
+}
+h1 {
+  color: #4A90E2;
+}
+h2 {
+  margin-top: 2rem;
+}
+a {
+  color: #4A90E2;
+  text-decoration: none;
+}
+.lang-switch {
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+.lang-switch a,
+.lang-switch span {
+  margin-right: 0.6rem;
+}
+.lang-switch .active-lang {
+  font-weight: bold;
+}
