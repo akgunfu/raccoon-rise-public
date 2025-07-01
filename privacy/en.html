@@ -1,131 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
   <title>Privacy Policy - English</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      background: #fefefe;
-      color: #222;
-      padding: 2rem;
-      line-height: 1.7;
-      max-width: 800px;
-      margin: auto;
-    }
-
-    .lang-switch {
-      margin-bottom: 2rem;
-    }
-
-    .lang-switch a {
-      margin-right: 1rem;
-      text-decoration: none;
-      color: #337ab7;
-    }
-
-    h1, h2 {
-      color: #4A90E2;
-    }
-
-    h1 {
-      margin-top: 0;
-    }
-
-    h2 {
-      margin-top: 2rem;
-    }
-
-    h3 {
-      margin-top: 1.5rem;
-    }
-
-    ul {
-      padding-left: 1.5rem;
-    }
-
-    li {
-      margin-bottom: 0.5rem;
-    }
-
-    em {
-      color: #888;
-    }
-
-    strong {
-      font-weight: 600;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <div class="lang-switch">
     <strong>Select Language:</strong>
-    <a href="en.html">English</a>
+    <span class="active-lang">English</span>
+    <a href="es.html">Español</a>
+    <a href="pt_BR.html">Português (Brasil)</a>
+    <a href="fr.html">Français</a>
+    <a href="de.html">Deutsch</a>
+    <a href="it.html">Italiano</a>
     <a href="tr.html">Türkçe</a>
+    <a href="ru.html">Русский</a>
+    <a href="ar.html">العربية</a>
+    <a href="he.html">עברית</a>
+    <a href="hi.html">हिन्दी</a>
+    <a href="id.html">Bahasa Indonesia</a>
+    <a href="th.html">ไทย</a>
+    <a href="vi.html">Tiếng Việt</a>
+    <a href="ja.html">日本語</a>
+    <a href="ko.html">한국어</a>
+    <a href="zh.html">中文</a>
+    <a href="pt.html">Português (Portugal)</a>
+    <a href="pl.html">Polski</a>
+    <a href="nl.html">Nederlands</a>
+    <a href="sv.html">Svenska</a>
+    <a href="da.html">Dansk</a>
   </div>
 
   <h1>Privacy Policy</h1>
   <p><em>Last updated: June 29, 2025</em></p>
-
-  <p>We respect your privacy. This game is built to collect <strong>minimal data</strong> — only what is essential for gameplay, ads, and leaderboards.</p>
+  <p>We are committed to protecting your privacy. This mobile game is designed to collect only the information necessary to enable essential gameplay features, show rewarded ads with your consent, and maintain a global leaderboard.</p>
 
   <h2>🔐 What We Collect</h2>
-
-  <h3>1. Anonymous User ID</h3>
+  <h3>1. Anonymous Authentication</h3>
   <ul>
-    <li>Generated using <strong>Firebase Anonymous Authentication</strong>.</li>
-    <li>Not linked to your real identity or contact info.</li>
-    <li>Used only to save your score and progress.</li>
+    <li>We use <strong>Firebase Anonymous Authentication</strong> to generate a unique, random user ID per device.</li>
+    <li>This ID is not tied to your real name, email, or other personal identifiers.</li>
+    <li>It is only used to save your progress and enable leaderboard submissions.</li>
   </ul>
 
-  <h3>2. Leaderboard Data</h3>
+  <h3>2. Leaderboard Participation</h3>
   <ul>
-    <li>Your best score is saved to <strong>Google Firestore</strong>.</li>
-    <li>Associated only with your anonymous user ID and a random display name.</li>
+    <li>Your high score is stored in <strong>Google Firestore</strong>, linked only to your anonymous ID and a random display name generated in-app.</li>
+    <li>We do not store any other personal information alongside leaderboard entries.</li>
   </ul>
 
-  <h3>3. Ads (Google AdMob)</h3>
+  <h3>3. Rewarded Advertisements (AdMob)</h3>
   <ul>
-    <li>We show rewarded ads using <strong>Google AdMob</strong>.</li>
-    <li>Ads are shown <strong>only with your consent</strong> via Apple's ATT and Google's UMP.</li>
-    <li>If allowed, AdMob may access your <strong>Device ID (IDFA)</strong> for ad personalization.</li>
-    <li>We never access or store this data ourselves.</li>
+    <li>Rewarded video ads are provided via <strong>Google AdMob</strong>.</li>
+    <li>Ads are shown <strong>only after receiving your explicit consent</strong> via Apple’s ATT (App Tracking Transparency) and Google’s UMP (User Messaging Platform).</li>
+    <li>If you allow personalized ads, AdMob may access your device’s <strong>Advertising Identifier (IDFA)</strong>.</li>
+    <li>We do not collect, access, or store any advertising or tracking identifiers ourselves.</li>
   </ul>
 
-  <h3>4. Usage Data</h3>
+  <h3>4. Local Device Data</h3>
   <ul>
-    <li>No gameplay analytics or tracking is performed by us.</li>
-    <li>AdMob may collect ad interaction data (e.g. impressions, completions).</li>
+    <li>Some settings and temporary game data may be stored locally on your device.</li>
+    <li>This includes game progress, UI preferences, and privacy consent choices.</li>
+  </ul>
+
+  <h3>5. Usage Data</h3>
+  <ul>
+    <li>We do not track your gameplay behavior, session length, or device usage.</li>
+    <li>AdMob may collect anonymous ad interaction data (e.g. impressions, views, completions) to serve ads properly.</li>
   </ul>
 
   <h2>🧩 Third-Party Services</h2>
   <ul>
-    <li><strong>Google Firebase</strong> – anonymous login and data storage</li>
-    <li><strong>Google AdMob</strong> – rewarded ad serving and consent management</li>
-    <li><strong>Apple (iOS)</strong> – handles ATT consent for ad tracking</li>
+    <li><strong>Google Firebase</strong> – anonymous login and leaderboard storage</li>
+    <li><strong>Google AdMob</strong> – optional rewarded ads and consent management</li>
+    <li><strong>Apple (iOS)</strong> – handles ATT privacy prompts and tracking control</li>
   </ul>
 
-  <p>We do not share gameplay data with any third parties.</p>
-
-  <h2>❌ What We Don’t Do</h2>
+  <h2>🚫 What We Do Not Collect</h2>
   <ul>
-    <li>No names, emails, or phone numbers collected</li>
-    <li>No account creation or password login</li>
-    <li>No location tracking</li>
-    <li>No social media or contacts access</li>
-    <li>No behavioral analytics or profiling</li>
+    <li>We do not collect your real name, email address, or phone number.</li>
+    <li>No account registration or passwords are required or supported.</li>
+    <li>We do not track your location.</li>
+    <li>We do not access your contacts, photos, or other apps.</li>
+    <li>We do not perform behavioral analytics or user profiling.</li>
+    <li>We do not use cookies or fingerprinting techniques.</li>
   </ul>
 
-  <h2>🧷 Your Privacy Options</h2>
+  <h2>🛠 Your Choices and Controls</h2>
   <ul>
-    <li>You can opt out of tracking via Apple’s ATT prompt.</li>
-    <li>To change your choice: go to <strong>Settings → Privacy → Tracking</strong> on your iOS device.</li>
+    <li>You can decline or withdraw ad tracking permission at any time.</li>
+    <li>Go to <strong>Settings → Privacy</strong> on your iOS device to manage tracking preferences.</li>
+    <li>In the same section, you may also delete app-related data or reset tracking identifiers.</li>
+    <li>You can delete the app at any time to permanently stop all data collection.</li>
+  </ul>
+
+  <h2>📅 Data Retention</h2>
+  <ul>
+    <li>Your anonymous ID and leaderboard score are retained until deleted manually or automatically reset during app updates.</li>
+    <li>No sensitive data is ever stored.</li>
   </ul>
 
   <h2>📬 Contact</h2>
-  <p>Questions? Reach out anytime:<br><strong>akgunfu@gmail.com</strong></p>
-
+  <p>Have a privacy question or request?<br />Email us anytime at: <strong>akgunfu@gmail.com</strong></p>
 </body>
 </html>
